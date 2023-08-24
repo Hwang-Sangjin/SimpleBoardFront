@@ -1,9 +1,8 @@
-import { useState } from "react";
+// App.js
+import React from "react";
+import { RecoilRoot } from "recoil";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
-}
-
+const App = () => {
+  return <RecoilRoot>hi</RecoilRoot>;
+};
 export default App;
